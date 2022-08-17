@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lqz.bluetooth">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--仅支持低功耗设备-->
+<!--    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>-->
+    <!--不支持低功耗设备-->
+<!--    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>-->
+
+</manifest>
